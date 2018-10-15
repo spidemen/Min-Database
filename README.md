@@ -3,7 +3,7 @@ CSC 560 Database system implement
 
 There are five projects. HFpage, mostly do add, delete, update on HFpage.
 
-HFfile, also do add, delete, update,search,ect on different records, number, string. Also, on different pages, should mataince order of records.
+HFfile, also do add, delete, update,search,etc on different records, number, string. Also, on different pages, should mataince order of records.
 
 Buff Mange-project3: do love-hate buff replace policy, and build hash table for search. 
 
