@@ -4,7 +4,7 @@
  */
 
 #ifdef PAGE_DEBUG
-#    include <iostream.h>
+#include <iostream.h>
 #endif
 
 #include "page.h"
