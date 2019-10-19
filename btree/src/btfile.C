@@ -189,7 +189,7 @@ Status BTreeFile::insert(const void *key, const RID rid)
   Page *leaf_write = new Page();
   char *recPtr_comp;
   RID Big_rid, dataRid;
-  void *key2 = new char[220];
+ // void *key2 = new char[220];
   // first insert
   if (!flag_tree_insert)
   {
@@ -273,7 +273,7 @@ Status BTreeFile::insert(const void *key, const RID rid)
       }
       if (root_insert != OK && root_insert == FILEEOF)
       {
-#if 1
+#if 0
         // index level +1, split root node into 2 index page
         root->level++;
         int insert_prob = 0;
@@ -504,7 +504,7 @@ Status BTreeFile::insert(const void *key, const RID rid)
         if (root_insert != OK && root_insert == FILEEOF) // in this project, just 2 level is enough, so the following spit root node do not excute
         {
 
-#if 1
+#if 0
           // index level +1, split root node into 2 index page
           root->level++;
           int insert_prob = 0;
