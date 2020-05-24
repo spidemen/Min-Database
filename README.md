@@ -11,5 +11,5 @@ B+ Tree: do add, delete, update, search on index and leave nodes, keep balance o
 
 SortMerge Join: just do a simple join of two tables
 
-In B+ tree project, there might be some bug or error, if you want to get correct code, feel free to reach out me 
-or follow me on github or leave any comment..
+### In B+ tree project, there might be some bug or error, if you want to get correct code, feel free to reach out me 
+### or follow me on github or leave any comment..
