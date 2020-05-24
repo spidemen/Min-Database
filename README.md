@@ -1,5 +1,5 @@
 # Min-Database
-CSC 560 Database system implement
+ Database system implement
 
 There are five projects. HFpage, mostly do add, delete, update on HFpage.
 
